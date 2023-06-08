@@ -14,7 +14,7 @@ public class ProfileController {
         this.profile = profile;
     }
 
-    @GetMapping("profile")
+    @GetMapping("/")
     public String getProfile() {
         return profile.getProfile();
     }
